@@ -1,7 +1,7 @@
 import { withPluginApi } from 'discourse/lib/plugin-api';
 import PostMenuComponent from 'discourse/components/post-menu';
 import { Button } from 'discourse/components/post-menu';
-import { showSelector } from "discourse/lib/emoji/emoji-toolbar";
+import { showSelector } from "../lib/emoji/emoji-toolbar";
 import TopicRoute from 'discourse/routes/topic';
 
 function priorToApi(container)

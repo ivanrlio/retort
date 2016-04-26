@@ -1,10 +1,11 @@
-# name: retort
+# name: retort-tbf
 # about: Reactions plugin for Discourse
-# version: 0.1.0
-# authors: James Kiesel (gdpelican)
+# version: 0.1.1
+# authors: James Kiesel (gdpelican), Ivan RL (ivanrlio)
 # url: https://github.com/gdpelican/retort
 
 register_asset "stylesheets/retort.scss"
+register_asset "stylesheets/retort-style.css"
 
 RETORT_PLUGIN_NAME ||= "retort".freeze
 

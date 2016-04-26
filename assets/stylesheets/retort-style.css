@@ -1,0 +1,16 @@
+.emoji-table-wrapper {
+  min-height: 40px;
+  padding: 1rem 0;
+}
+
+.emoji-modal {
+  min-height: 40px;
+}
+
+.emoji-modal .toolbar li:not(:first-child) {
+  display: none;
+}
+
+.emoji-modal .nav {
+  display: none;
+}
