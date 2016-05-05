@@ -1,4 +1,4 @@
-# name: retort-tbf
+# name: retort
 # about: Reactions plugin for Discourse
 # version: 0.1.1
 # authors: James Kiesel (gdpelican), Ivan RL (ivanrlio)

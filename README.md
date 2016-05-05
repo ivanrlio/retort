@@ -29,3 +29,7 @@ Pull requests welcome! To contribute:
 - Commit your changes (`git commit -am 'Add some feature`)
 - Push to the branch (`git push origin your-new-feature`)
 - Create a new Pull Request
+
+
+### v0.1.1 (Ivan RL)
+- Limited the number of emojis to four to emulate Facebook's limited (six) reactions
