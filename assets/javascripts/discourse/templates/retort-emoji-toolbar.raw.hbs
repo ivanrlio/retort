@@ -1,0 +1,16 @@
+<div class='emoji-modal retort-emoji-modal'>
+  <ul class='toolbar retort-toolbar'>
+    {{#each item in toolbarItems}}<li><a title='{{item.title}}' {{#if item.selected}}class='selected'{{/if}} data-group-id='{{item.groupId}}'><img src='{{item.src}}' class='emoji'></a></li>{{/each}}
+  </ul>
+  <div class='emoji-table-wrapper retort-emoji-table-wrapper'>
+    <div class='emoji-page retort-emoji-page retort-emoji-container'>
+      {{#each row in rows}}
+        <span>
+          {{#each item in row}}
+            <a title='{{item.title}}'><img src='{{item.src}}' class='emoji retort-emoji'></a>
+          {{/each}}
+        <span>
+      {{/each}}
+    </div>
+  </div>
+</div>

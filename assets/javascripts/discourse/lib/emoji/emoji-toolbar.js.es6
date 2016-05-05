@@ -148,7 +148,7 @@ function render(page, offset, options) {
   };
 
   $('.emoji-modal', options.appendTo).remove();
-  const template = options.container.lookup('template:emoji-toolbar.raw');
+  const template = options.container.lookup('template:retort-emoji-toolbar.raw');
   options.appendTo.append(template(model));
 
   bindEvents(page, offset, options);

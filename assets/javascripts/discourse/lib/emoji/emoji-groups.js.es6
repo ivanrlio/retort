@@ -4,7 +4,7 @@
 const groups = [
   {
     name:"people",
-    fullname:"People",
+    fullname:"tbf-retort-emojis",
     tabicon:"grinning",
     icons:[
      "laughing",
